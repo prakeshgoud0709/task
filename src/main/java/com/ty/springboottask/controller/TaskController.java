@@ -20,4 +20,9 @@ public class TaskController {
 	public String task() {
 		return "done by Task";
 	}
+	
+	@GetMapping("/hello")
+	public String practice() {
+		return "Hello Hai";
+	}
 }
